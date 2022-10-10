@@ -14,6 +14,7 @@ include_once '../includes/scripts.php';
 <body>
     <div class="container p-5">
         <div class="row">
+            <h2 class="text-center">Registro de familiares</h2>
             <div class="col">
                 <form action="../controller/crearFamiliar.php" method="POST" class="border border-info p-3">
                     <div class="mb-3">
