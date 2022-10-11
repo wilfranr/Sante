@@ -11,9 +11,6 @@ include_once '../includes/scripts.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salud y Vida</title>
-
-
-
 </head>
 
 <body>
@@ -34,8 +31,8 @@ include_once '../includes/scripts.php';
                     <img src="../img/registra_estado.png" class="card-img-top" alt="registra">
                     <div class="card-body">
                         <h5 class="card-title">Registrar estado de salud </h5>
-                        <p class="card-text">Registrar su estado de salud y el de sus familiares</p>
-                        <a href="registra_salud.php" class="btn btn-primary">Ir...</a>
+                        <p class="card-text">Registrar su estado de salud y el de sus familiares.</p>
+                        <a href="familiares.php" class="btn btn-primary">Ir...</a>
                     </div>
                 </div>
             </div>
@@ -45,11 +42,14 @@ include_once '../includes/scripts.php';
                     <div class="card-body">
                         <h5 class="card-title">Ver estado de salud </h5>
                         <p class="card-text">Vea su estado de salud y el de sus familiares</p>
-                        <a href="ver_salud.php" class="btn btn-primary">Ir...</a>
+                        <a href="estadisticas.php" class="btn btn-primary">Ir...</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div>
+        
     </div>
 
 </body>

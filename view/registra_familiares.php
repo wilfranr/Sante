@@ -2,6 +2,9 @@
 include_once '../includes/header.php';
 include_once '../includes/conexion.php';
 include_once '../includes/scripts.php';
+echo '<script type="text/javascript">
+registroSaludPropio();
+    </script>';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,6 +29,14 @@ include_once '../includes/scripts.php';
                         <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ingrese el apellido de su familiar">
                     </div>
                     <div class="mb-3">
+                        <label for="tipoId">Tipo de id.</label>
+                        <select name="tipoId" id="tipoId">
+                            <option value="1">Cédula</option>
+                            <option value="2">Tarjeta de identidad</option>
+                            <option value="3">Nuip</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
                         <label for="idFamiliar" class="form-label">Identificación</label>
                         <input type="text" class="form-control" id="idFamiliar" name="idFamiliar" placeholder="Ingrese la identificacion de su familiar">
                     </div>
@@ -41,7 +52,6 @@ include_once '../includes/scripts.php';
                         </select>
                         
                     </div>
-                    
                     <div class="mb-3">
                         <label for="parentesco" class="form-label">Parentesco</label>
                         <input type="text" class="form-control" id="parentesco" name="parentesco" placeholder="Ingrese el parentesco">
